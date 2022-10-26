@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: black; 
+}
+
+h1, p, a {
+	color: white;
+}
+
+.navn {
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	text-align: center;
+}
+
+.intro {
+	
+	position: fixed;
+	top: 435px;
+	right: 724px;
+	text-align: center;
+}
