@@ -19,7 +19,10 @@ h1, p, a {
 	top: 10%;
 	width: 100%;
 	text-align: center;
-	font-size: 60px;
+	font-size: 80px;
+	font-family: filmotype-honey, sans-serif;
+	font-weight: 300;
+	font-style: normal;	
 }
 
 .intro {
@@ -31,6 +34,9 @@ h1, p, a {
 	bottom: 498px;
 	text-align: center;
 	font-size: 50px;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .work {
@@ -40,8 +46,9 @@ h1, p, a {
 	left: 833px;
 	bottom: 292px;
 	font-size: 30px;
-	
-	
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .contact {
@@ -51,8 +58,9 @@ h1, p, a {
 	left: 950px;
 	bottom: 292px;
 	font-size: 30px;
-	
-	
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .mail {
@@ -63,6 +71,9 @@ h1, p, a {
 	bottom: 63px;
 	font-size: 16px;
 	margin-bottom: 20px;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	
 }
 
@@ -84,8 +95,6 @@ h1, p, a {
 	left: 840px;
 	bottom: 122px;
 	
-	
-	
 }
 
 .linkedin {
@@ -95,8 +104,22 @@ h1, p, a {
 	left: 920px;
 	bottom: 292px;
 	
-	
-	
+}
+
+.billede1 {
+	position: absolute;
+	top: 352px;
+	right: 1342px;
+	left: 14px;
+	bottom: 352px;
+}
+
+.billede2 {
+	position: absolute;
+	top: 352px;
+	right: 14px;
+	left: 1342px;
+	bottom: 352px;
 }
 
 
