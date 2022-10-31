@@ -5,21 +5,114 @@ body {
 	background-color: black; 
 }
 
+/* Ændrer den brugte tekstfarve til hvid på alle h1, p og a elementer */
+
+
 h1, p, a {
 	color: white;
 }
+
+/* Sætter position på alle elementerne på siden. Alle elementer er givet hver sin class */
 
 .navn {
 	position: absolute;
 	top: 10%;
 	width: 100%;
 	text-align: center;
+	font-size: 60px;
 }
 
 .intro {
 	
-	position: fixed;
+	position: absolute;
 	top: 435px;
 	right: 724px;
+	left: 724px;
+	bottom: 498px;
 	text-align: center;
+	font-size: 50px;
 }
+
+.work {
+	position: absolute;
+	top: 745px;
+	right: 960px;
+	left: 833px;
+	bottom: 292px;
+	font-size: 30px;
+	
+	
+}
+
+.contact {
+	position: absolute;
+	top: 745px;
+	right: 742px;
+	left: 950px;
+	bottom: 292px;
+	font-size: 30px;
+	
+	
+}
+
+.mail {
+	position: absolute;
+	top: 900px;
+	right: 875px;
+	left: 855px;
+	bottom: 63px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	
+}
+
+.twitter {
+	position: absolute;
+	top: 840px;
+	right: 742px;
+	left: 1000px;
+	bottom: 292px;
+	
+	
+	
+}
+
+.facebook {
+	position: absolute;
+	top: 840px;
+	right: 1032px;
+	left: 840px;
+	bottom: 122px;
+	
+	
+	
+}
+
+.linkedin {
+	position: absolute;
+	top: 840px;
+	right: 742px;
+	left: 920px;
+	bottom: 292px;
+	
+	
+	
+}
+
+
+
+
+/* Disse fire linjer kode sørger for, at linket ikke har en underline. Her er rækkefølge vigtigt */
+
+.mail:link { text-decoration: none; }
+
+
+.mail:visited { text-decoration: none; }
+
+
+.mail:hover { text-decoration: none; }
+
+
+.mail:active { text-decoration: none; }
+
+
