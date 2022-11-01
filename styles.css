@@ -66,6 +66,23 @@ h1, p, a {
 	
 	
 }
+
+.work3 {
+	position: absolute;
+	top: 10px;
+	right: 271px;
+	left: 1573px;
+	bottom: 997px;
+	font-size: 30px;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	
+	
+	
+}
+
+
 /* contact knap på forside og contact side */
 
 .contact {
@@ -90,6 +107,19 @@ h1, p, a {
 	font-family: poppins, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+}
+
+.contact3 {
+	position: absolute;
+	top: 10px;
+	right: 24px;
+	left: 1701px;
+	bottom: 997px;
+	font-size: 30px;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:orange;
 }
 /* Home knap på work side */
 .home {
@@ -206,6 +236,62 @@ h1, p, a {
 	right: 14px;
 	left: 1342px;
 	bottom: 352px;
+}
+
+.billede3 {
+	position: absolute;
+	top: 150px;
+	right: 0px;
+	
+}
+
+.getintouch {
+	position: absolute;
+	top: 75px;
+	right: 1397px;
+	left: 167px;
+	bottom: 884px;
+	font-family: poppins, Bold;
+	font-size: 56px;
+	white-space: nowrap;
+	
+}
+
+.phonelogo {
+	position: absolute;
+	top: 358px;
+	right: 1753px;
+	left: 86px;
+	bottom: 660px;
+
+}
+
+.addresslogo {
+	position: absolute;
+	top: 540px;
+	right: 1753px;
+	left: 86px;
+	bottom: 450px;
+	
+}
+
+.phone {
+	position: absolute;
+	top: 320px;
+	left: 250px;
+	bottom: 660px;
+	font-family: poppins, medium;
+	font-size: 40px;
+
+}
+
+.adress {
+	position: absolute;
+	top: 515px;
+	left: 200px;
+	bottom: 450px;
+	font-family: poppins, medium;
+	font-size: 40px;
 }
 
 
