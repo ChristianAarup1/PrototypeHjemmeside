@@ -298,7 +298,7 @@ h1, p, a {
 /* Disse fire linjer kode sørger for, at linket ikke har en underline. Her er rækkefølge vigtigt */
 
 .mail:link { text-decoration: none; }
-+
+
 
 .mail:visited { text-decoration: none; }
 
