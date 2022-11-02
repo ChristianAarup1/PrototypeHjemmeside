@@ -295,7 +295,248 @@ h1, p, a {
 	font-size: 40px;
 }
 
+.billederwork {
+	margin-right: 40px;
+	margin-bottom: 15px;
+	
+}
 
+@media screen and (max-width: 428px){
+	
+	/* Media query ændringer til forside */
+	.navn {
+		position: absolute;
+		top: 10%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.intro {
+		position: absolute;
+		top: 333px;
+		right: 55px;
+		left: 56px;
+		bottom: 487px;
+		text-align: center;
+		font-size: 35px;
+	}
+	
+	.work {
+		display: none;
+	}
+	
+	.contact {
+		display: none;
+	}
+	
+	.mail {
+		position: absolute;
+		top: 881px;
+		right: 132px;
+		left: 124px;
+		bottom: 26px;
+		text-align: center;
+	}
+	
+	.billede1 {
+		
+		display: none;
+	}
+	
+	.billede2 {
+		
+		position: absolute;
+		top: 531px;
+		right: 81px;
+		left: 81px;
+		bottom: 218px;
+		height: 177px;
+		width: 266px;	
+	}
+	.facebook {
+		position: absolute;
+		top: 800px;
+		right: 91px;
+		left: 91px;
+		bottom: 122px;
+}
+	.twitter {
+		position: absolute;
+		top: 795px;
+		right: 95px;
+		left: 180px;
+		bottom: 122px;
+}
+	.linkedin {
+		position: absolute;
+		top: 795px;
+		right: 95px;
+		left: 270px;
+		bottom: 122px;	
+}
+	
+	/* Media Query ændringer til workpage */
+	
+	.home {
+		display: none;
+	}
+	
+	.work2 {
+		position: absolute;
+		top: 50px;
+		right: 118px;
+		left: 119px;
+		bottom: 1876px;
+		text-align: center;
+		color: white;
+	}
+	
+	.contact2 {
+		display: none;
+	}
+	
+	.billederwork {
+		margin-bottom: 20px;
+		margin-right: 0px;
+		width: 289px;
+		height: 235px;
+	
+}
+	#placeholder1 {
+		position: absolute;
+		top: 170px;
+		right: 70px;
+		left: 70px;
+		
+	}
+	
+	#placeholder2 {
+		position: absolute;
+		top: 447px;
+		right: 70px;
+		left: 70px;
+		bottom: 1599px;
+	}
+	
+	#placeholder3 {
+		position: absolute;
+		top: 724px;
+		right: 70px;
+		left: 70px;
+		
+	}
+	
+	#placeholder4 {
+		position: absolute;
+		top: 1014px;
+		right: 70px;
+		left: 70px;
+		
+	}
+	
+	#placeholder5 {
+		position: absolute;
+		top: 1291px;
+		right: 70px;
+		left: 70px;
+		
+	}
+	
+	#placeholder6 {
+		position: absolute;
+		top: 1568px;
+		right: 70px;
+		left: 70px;
+		
+	}
+	
+	/* Media query ændringer til contact page */
+	
+	.billede3 {
+		
+		display: none;
+	}
+	
+	.getintouch {
+		position: absolute;
+		top: 163px;
+		right: 64px;
+		left: 64px;
+		font-size: 40px;
+		text-align: center;
+	}
+	
+	.phonelogo {
+		position: absolute;
+		top: 392px;
+		right: 332px;
+		left: 32px;
+		width: 64px;
+		height: 44px;
+	}
+	
+	.addresslogo {
+		position: absolute;
+		top: 568px;
+		right: 332px;
+		left: 32px;
+		width: 53px;
+		height: 56px;
+	}
+	
+	.phone {
+		position: absolute;
+		top: 360px;
+		right: 44px;
+		left: 127px;
+		font-size: 30px;
+		
+	}
+	
+	.adress {
+		position: absolute;
+		top: 530px;
+		right: 29px;
+		left: 127px;
+		font-size: 30px;
+	}
+	
+	.facebook2 {
+		position: absolute;
+		top: 800px;
+		right: 91px;
+		left: 91px;
+		bottom: 122px;
+	}
+	
+	.twitter2 {
+		position: absolute;
+		top: 795px;
+		right: 95px;
+		left: 180px;
+		bottom: 122px;
+	}
+	
+	.linkedin2 {
+		position: absolute;
+		top: 795px;
+		right: 95px;
+		left: 270px;
+		bottom: 122px;
+	}
+	
+	.mail2 {
+		position: absolute;
+		top: 881px;
+		right: 132px;
+		left: 124px;
+		bottom: 26px;
+		text-align: center;
+	}
+	
+	
+}
+	
 
 /* Disse fire linjer kode sørger for, at linket ikke har en underline. Her er rækkefølge vigtigt */
 
@@ -322,6 +563,3 @@ h1, p, a {
 
 
 .mail2:active { text-decoration: none; }
-
-
-
