@@ -536,6 +536,180 @@ h1, p, a {
 	
 	
 }
+
+:root{
+	--background: black
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+header {
+	background: var(--background);
+	text-align: center;
+	position: fixed;
+	z-index: 999;
+	width: 10%;
+	
+}
+.nav-toggle {
+	display: none;
+}
+ 
+
+.nav-toggle-label {
+	position: absolute;
+	top: 1em;
+	left: 0;
+	margin-left: 1em;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-toggle-label2 {
+	position: absolute;
+	top: -10em;
+	left: 0;
+	margin-left: 1em;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-toggle-label3 {
+	position: absolute;
+	top: ;
+	left: 0;
+	margin-left: 1em;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	display: block;
+	background: white;
+	height: 2px;
+	width: 2em;
+	border-radius: 2px;
+	position: relative;
+}
+
+.nav-toggle-label2 span,
+.nav-toggle-label2 span::before,
+.nav-toggle-label2 span::after {
+	display: block;
+	background: white;
+	height: 2px;
+	width: 2em;
+	border-radius: 2px;
+	position: relative;
+}
+
+.nav-toggle-label3 span,
+.nav-toggle-label3 span::before,
+.nav-toggle-label3 span::after {
+	display: block;
+	background: white;
+	height: 2px;
+	width: 2em;
+	border-radius: 2px;
+	position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	content: '';
+	position: absolute;
+
+}
+.nav-toggle-label2 span::before,
+.nav-toggle-label2 span::after {
+	content: '';
+	position: absolute;
+
+}
+.nav-toggle-label3 span::before,
+.nav-toggle-label3 span::after {
+	content: '';
+	position: absolute;
+
+}
+
+.nav-toggle-label span::before {
+	bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+	top: 7px;
+}
+
+.nav-toggle-label2 span::before {
+	bottom: 7px;
+}
+
+.nav-toggle-label2 span::after {
+	top: 7px;
+}
+
+.nav-toggle-label3 span::before {
+	bottom: 7px;
+}
+
+.nav-toggle-label3 span::after {
+	top: 7px;
+}
+
+
+nav {
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0;
+	background: var (--background);
+	width: 100%;
+	display: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+.nav a:hover {
+	color: orange;
+}
+
+.nav-toggle:checked ~ nav {
+	display: block;
+}
+
+@media screen and (min-width: 450px) {
+	.nav-toggle-label {
+		display:none;
+	}
+	
+}
+
+
+
 	
 
 /* Disse fire linjer kode sørger for, at linket ikke har en underline. Her er rækkefølge vigtigt */
